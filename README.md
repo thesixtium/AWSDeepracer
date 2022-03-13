@@ -3,7 +3,7 @@
 ## Description
 This is a culmination of all my reward functions for [Amazon's DeepRacer](https://student.deepracer.com/) competition.
 Revisions:
-* Model-attempt-03 - 	01:22.261 (Top 28.7% of participants)
+* **Model-attempt-03** - 	01:22.261 (Top 28.7% of participants)
 
 ### What It Does
 These files make reward functions for a machine learning algorithm.
