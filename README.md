@@ -1,6 +1,7 @@
 # AWSDeepracer
 
 ## Description
+Programed a reinforcement learning reward function for a car to race around a track.
 This is a culmination of all my reward functions for [Amazon's DeepRacer](https://student.deepracer.com/) competition. See a video on it [here](https://www.youtube.com/watch?v=-gn2pBuBD0c&t=1s)
 
 Revisions:
