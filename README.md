@@ -2,6 +2,7 @@
 
 ## Description
 This is a culmination of all my reward functions for [Amazon's DeepRacer](https://student.deepracer.com/) competition. See a video on it [here](https://www.youtube.com/watch?v=-gn2pBuBD0c&t=1s)
+
 Revisions:
 * **Model-attempt-03** - 	01:22.261 (Top 28.7% of participants)
 
