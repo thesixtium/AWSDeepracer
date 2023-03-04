@@ -324,8 +324,6 @@ def reward_function(params):
         / range_unscaled_racing_line_reward
     scaled_racing_line_reward = (normalized_racing_line_reward * range_scaled_reward) \
         + min_scaled_reward
-    # TODO: Double check all math
-    # TODO: Actually make function
 
     # ################# REWARD FOR COMPLETING THE TRACK FAST ################# #
 
@@ -343,14 +341,11 @@ def reward_function(params):
     scaled_track_fast_reward = (normalized_track_fast_reward * range_scaled_reward)\
         + min_scaled_reward
 
-    # TODO: Figure out range of completion reward
-    # TODO: Double check all math
-
     # ################# COMBINING REWARDS ################# #
 
     # Constants
-    racing_line_weight = 0.5
-    track_fast_weight = 0.5
+    racing_line_weight = 5
+    track_fast_weight = 10-racing_line_weight
     # Idea: Train for 10min, then adjust constants, then clone and train, etc...
 
     # Combining Reward
